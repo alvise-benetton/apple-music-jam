@@ -1,0 +1,37 @@
+{
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/SourcePackages/checkouts/CocoaMQTT/Source/MqttDecodePubComp.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePubComp.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePubComp.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePubComp.dia",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePubComp.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePubComp.swiftdeps"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/SourcePackages/checkouts/CocoaMQTT/Source/MqttDecodePubRec.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePubRec.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePubRec.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePubRec.dia",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePubRec.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePubRec.swiftdeps"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/SourcePackages/checkouts/CocoaMQTT/Source/MqttDecodePubRel.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePubRel.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePubRel.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePubRel.dia",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePubRel.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePubRel.swiftdeps"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/SourcePackages/checkouts/CocoaMQTT/Source/MqttDecodePublish.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePublish.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePublish.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePublish.dia",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePublish.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodePublish.swiftdeps"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/SourcePackages/checkouts/CocoaMQTT/Source/MqttDecodeSubAck.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodeSubAck.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodeSubAck.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodeSubAck.dia",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodeSubAck.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/MqttDecodeSubAck.swiftdeps"
+  }
+}

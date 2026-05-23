@@ -1,0 +1,74 @@
+name: AppleMusicJAM
+options:
+  bundleIdPrefix: com.applemusicjam
+  deploymentTarget:
+    iOS: "16.2"
+  xcodeVersion: "16.0"
+  generateEmptyDirectories: true
+  groupSortPosition: top
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    IPHONEOS_DEPLOYMENT_TARGET: "16.2"
+    TARGETED_DEVICE_FAMILY: "1" # iPhone only
+
+packages:
+  CocoaMQTT:
+    url: https://github.com/emqx/CocoaMQTT.git
+    from: "2.1.6"
+
+targets:
+  AppleMusicJAM:
+    type: application
+    platform: iOS
+    sources:
+      - path: AppleMusicJAM
+        excludes:
+          - Web/**
+      - path: Shared
+    resources:
+      - path: AppleMusicJAM/Web
+        type: folder
+    settings:
+      base:
+        INFOPLIST_FILE: AppleMusicJAM/Info.plist
+        CODE_SIGN_ENTITLEMENTS: AppleMusicJAM/AppleMusicJAM.entitlements
+        PRODUCT_BUNDLE_IDENTIFIER: com.applemusicjam.app
+        DEVELOPMENT_TEAM: "NYD2RHPW5V"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: false
+    dependencies:
+      - package: CocoaMQTT
+      - target: AppleMusicJAMWidgetExtension
+    entitlements:
+      path: AppleMusicJAM/AppleMusicJAM.entitlements
+
+  AppleMusicJAMWidgetExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: AppleMusicJAMWidget
+      - path: Shared
+    settings:
+      base:
+        INFOPLIST_FILE: AppleMusicJAMWidget/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.applemusicjam.app.widget
+        DEVELOPMENT_TEAM: "NYD2RHPW5V"
+        SWIFT_EMIT_LOC_STRINGS: "YES"
+        GENERATE_INFOPLIST_FILE: false
+    entitlements:
+      path: AppleMusicJAMWidget/AppleMusicJAMWidget.entitlements
+
+schemes:
+  AppleMusicJAM:
+    build:
+      targets:
+        AppleMusicJAM: all
+        AppleMusicJAMWidgetExtension: all
+    run:
+      config: Debug
+    profile:
+      config: Release
+    analyze:
+      config: Debug

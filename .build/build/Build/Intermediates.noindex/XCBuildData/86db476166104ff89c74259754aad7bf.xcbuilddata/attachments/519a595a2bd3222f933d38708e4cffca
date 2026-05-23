@@ -1,0 +1,16 @@
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/AppleMusicJAM/App/AppDelegate.swift
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/AppleMusicJAM/App/AppleMusicJAMApp.swift
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/AppleMusicJAM/CarPlay/CarPlaySceneDelegate.swift
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/AppleMusicJAM/Views/ConnectedHostsView.swift
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/AppleMusicJAM/Models/HostDevice.swift
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/AppleMusicJAM/Services/ITunesSearchService.swift
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/AppleMusicJAM/Services/LiveActivityService.swift
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/AppleMusicJAM/Services/MQTTService.swift
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/AppleMusicJAM/Views/MainView.swift
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/Shared/MusicActivityAttributes.swift
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/AppleMusicJAM/Services/MusicPlayerService.swift
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/AppleMusicJAM/Services/NetworkService.swift
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/AppleMusicJAM/Views/NowPlayingView.swift
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/AppleMusicJAM/Services/QRCodeService.swift
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/AppleMusicJAM/Views/QRCodeView.swift
+/Users/alvisebenetton/Desktop/Apple\ Music\ JAM/AppleMusicJAM/Models/Song.swift

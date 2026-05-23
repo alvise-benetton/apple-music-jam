@@ -1,0 +1,44 @@
+{
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/SourcePackages/checkouts/CocoaMQTT/Source/CocoaMQTTTypes.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/CocoaMQTTTypes.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/CocoaMQTTTypes.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/CocoaMQTTTypes.dia",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/CocoaMQTTTypes.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/CocoaMQTTTypes.swiftdeps"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/SourcePackages/checkouts/CocoaMQTT/Source/Frame.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/Frame.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/Frame.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/Frame.dia",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/Frame.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/Frame.swiftdeps"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/SourcePackages/checkouts/CocoaMQTT/Source/FrameAuth.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameAuth.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameAuth.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameAuth.dia",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameAuth.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameAuth.swiftdeps"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/SourcePackages/checkouts/CocoaMQTT/Source/FrameConnAck.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameConnAck.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameConnAck.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameConnAck.dia",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameConnAck.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameConnAck.swiftdeps"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/SourcePackages/checkouts/CocoaMQTT/Source/FrameConnect.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameConnect.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameConnect.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameConnect.dia",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameConnect.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameConnect.swiftdeps"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/SourcePackages/checkouts/CocoaMQTT/Source/FrameDisconnect.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameDisconnect.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameDisconnect.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameDisconnect.dia",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameDisconnect.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal/arm64/FrameDisconnect.swiftdeps"
+  }
+}

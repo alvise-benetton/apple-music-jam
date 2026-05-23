@@ -1,0 +1,169 @@
+{
+  "" : {
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppleMusicJAM-primary.dia",
+    "emit-module-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppleMusicJAM-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppleMusicJAM-primary-emit-module.dia",
+    "pch" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppleMusicJAM-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppleMusicJAM-primary.swiftdeps"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM/App/AppDelegate.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM/App/AppleMusicJAMApp.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppleMusicJAMApp.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppleMusicJAMApp.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppleMusicJAMApp.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppleMusicJAMApp.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppleMusicJAMApp.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppleMusicJAMApp.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppleMusicJAMApp.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/AppleMusicJAMApp~partial.swiftmodule"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM/CarPlay/CarPlaySceneDelegate.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/CarPlaySceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/CarPlaySceneDelegate.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/CarPlaySceneDelegate.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/CarPlaySceneDelegate.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/CarPlaySceneDelegate.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/CarPlaySceneDelegate.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/CarPlaySceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/CarPlaySceneDelegate~partial.swiftmodule"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM/Models/HostDevice.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/HostDevice.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/HostDevice.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/HostDevice.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/HostDevice.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/HostDevice.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/HostDevice.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/HostDevice.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/HostDevice~partial.swiftmodule"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM/Models/Song.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/Song.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/Song.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/Song.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/Song.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/Song.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/Song.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/Song.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/Song~partial.swiftmodule"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM/Services/ITunesSearchService.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ITunesSearchService.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ITunesSearchService.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ITunesSearchService.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ITunesSearchService.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ITunesSearchService.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ITunesSearchService.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ITunesSearchService.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ITunesSearchService~partial.swiftmodule"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM/Services/LiveActivityService.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/LiveActivityService.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/LiveActivityService.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/LiveActivityService.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/LiveActivityService.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/LiveActivityService.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/LiveActivityService.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/LiveActivityService.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/LiveActivityService~partial.swiftmodule"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM/Services/MQTTService.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MQTTService.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MQTTService.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MQTTService.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MQTTService.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MQTTService.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MQTTService.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MQTTService.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MQTTService~partial.swiftmodule"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM/Services/MusicPlayerService.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicPlayerService.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicPlayerService.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicPlayerService.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicPlayerService.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicPlayerService.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicPlayerService.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicPlayerService.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicPlayerService~partial.swiftmodule"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM/Services/NetworkService.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NetworkService.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NetworkService.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NetworkService.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NetworkService.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NetworkService.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NetworkService.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NetworkService.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NetworkService~partial.swiftmodule"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM/Services/QRCodeService.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeService.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeService.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeService.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeService.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeService.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeService.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeService.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeService~partial.swiftmodule"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM/Views/ConnectedHostsView.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ConnectedHostsView.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ConnectedHostsView.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ConnectedHostsView.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ConnectedHostsView.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ConnectedHostsView.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ConnectedHostsView.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ConnectedHostsView.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/ConnectedHostsView~partial.swiftmodule"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM/Views/MainView.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MainView.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MainView.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MainView.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MainView.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MainView.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MainView.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MainView.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MainView~partial.swiftmodule"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM/Views/NowPlayingView.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NowPlayingView.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NowPlayingView.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NowPlayingView.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NowPlayingView.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NowPlayingView.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NowPlayingView.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NowPlayingView.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/NowPlayingView~partial.swiftmodule"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM/Views/QRCodeView.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeView.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeView.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeView.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeView.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeView.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeView.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeView.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/QRCodeView~partial.swiftmodule"
+  },
+  "/Users/alvisebenetton/Desktop/Apple Music JAM/Shared/MusicActivityAttributes.swift" : {
+    "const-values" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicActivityAttributes.swiftconstvalues",
+    "dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicActivityAttributes.d",
+    "diagnostics" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicActivityAttributes.dia",
+    "index-unit-output-path" : "/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicActivityAttributes.o",
+    "llvm-bc" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicActivityAttributes.bc",
+    "object" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicActivityAttributes.o",
+    "swift-dependencies" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicActivityAttributes.swiftdeps",
+    "swiftmodule" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/AppleMusicJAM.build/Debug-iphonesimulator/AppleMusicJAM.build/Objects-normal/arm64/MusicActivityAttributes~partial.swiftmodule"
+  }
+}
