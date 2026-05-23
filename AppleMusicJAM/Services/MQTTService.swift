@@ -25,7 +25,7 @@ final class MQTTService: ObservableObject {
     private var cleanupTimer: Timer?
 
     private let brokerHost = "broker.hivemq.com"
-    private let brokerPort: UInt16 = 1883
+    private let brokerPort: UInt16 = 8883
 
     private var stateTopic: String { "apple-music-jam/session/\(sessionId)/state" }
     private var controlTopic: String { "apple-music-jam/session/\(sessionId)/control" }
@@ -65,8 +65,8 @@ final class MQTTService: ObservableObject {
         mqttClient?.keepAlive = 60
         mqttClient?.autoReconnect = true
         
-        // Disable SSL for port 1883. For 8883 you would use enableSSL = true
-        mqttClient?.enableSSL = false
+        // Enable SSL for port 8883 to bypass firewalls blocking port 1883
+        mqttClient?.enableSSL = true
         
         mqttClient?.didReceiveMessage = { [weak self] mqtt, message, id in
             guard let self = self else { return }
