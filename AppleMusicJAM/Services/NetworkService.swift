@@ -14,7 +14,7 @@ final class NetworkService {
 
     /// The base URL where the static web application is hosted.
     /// You can change this to your GitHub Pages or Vercel URL.
-    private let webAppBaseURL = "https://alvisebenetton.github.io/apple-music-jam"
+    private let webAppBaseURL = "https://alvise-benetton.github.io/apple-music-jam"
 
     // MARK: - Public Methods
 
