@@ -24,7 +24,7 @@ final class MQTTService: ObservableObject {
     private var cancellables = Set<AnyCancellable>()
     private var cleanupTimer: Timer?
 
-    private let brokerHost = "broker.emqx.io"
+    private let brokerHost = "broker.hivemq.com"
     private let brokerPort: UInt16 = 8883
 
     private var stateTopic: String { "apple-music-jam/session/\(sessionId)/state" }
