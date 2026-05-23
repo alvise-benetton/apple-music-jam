@@ -97,7 +97,7 @@
                 return;
             }
 
-            const brokerUrl = 'wss://broker.hivemq.com:8443/mqtt';
+            const brokerUrl = 'wss://broker.emqx.io:8084/mqtt';
             console.log(`Connecting to MQTT Broker: ${brokerUrl}`);
 
             State.mqttClient = mqtt.connect(brokerUrl, {
