@@ -33,54 +33,48 @@ struct RootView: View {
                 Color.clear.frame(height: player.currentSong != nil ? 150 : 80)
             }
             
-            // UI Fluttuante in basso
-            VStack(spacing: 8) {
-                Spacer()
-                
-                // Mini Player (Se c'è una canzone)
-                if player.currentSong != nil {
-                    MiniPlayerView()
-                        .onTapGesture {
-                            showFullScreenPlayer = true
-                        }
-                        .transition(.move(edge: .bottom).combined(with: .opacity))
-                }
-                
-                // Custom Tab Bar
-                HStack(spacing: 12) {
-                    Spacer(minLength: 0)
-                    // Pill principale con i tab primari
-                    HStack(spacing: 0) {
-                        TabBarButton(title: "Home", icon: "house.fill", tab: .libreria, selectedTab: $selectedTab, namespace: tabAnimationNamespace)
-                        TabBarButton(title: "JAM", icon: "music.mic", tab: .jam, selectedTab: $selectedTab, namespace: tabAnimationNamespace)
-                        TabBarButton(title: "Opzioni", icon: "gearshape.fill", tab: .impostazioni, selectedTab: $selectedTab, namespace: tabAnimationNamespace)
-                    }
-                    .padding(6)
-                    .background(.ultraThinMaterial)
-                    .clipShape(Capsule())
-                    .shadow(color: Color.black.opacity(0.15), radius: 15, x: 0, y: 5)
+                // UI Fluttuante in basso
+                VStack(spacing: 12) {
+                    Spacer()
                     
-                    // Bottone Circolare Ricerca
-                    Button(action: {
-                        withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
-                            selectedTab = .cerca
-                        }
-                    }) {
-                        Image(systemName: "magnifyingglass")
-                            .font(.system(size: 22, weight: .semibold))
-                            .foregroundColor(selectedTab == .cerca ? .pink : .primary.opacity(0.8))
-                            .frame(width: 68, height: 68)
-                            .background(.ultraThinMaterial)
-                            .clipShape(Circle())
-                            .shadow(color: Color.black.opacity(0.15), radius: 15, x: 0, y: 5)
+                    // Mini Player (Now Playing Card)
+                    if player.currentSong != nil {
+                        MiniPlayerView()
+                            .onTapGesture {
+                                showFullScreenPlayer = true
+                            }
                     }
-                    .buttonStyle(ScaleButtonStyle())
                     
-                    Spacer(minLength: 0)
+                    // Custom Tab Bar
+                    HStack(spacing: 12) {
+                        // Pill principale
+                        HStack(spacing: 0) {
+                            TabBarButton(title: "Library", tab: .libreria, selectedTab: $selectedTab, namespace: tabAnimationNamespace)
+                            TabBarButton(title: "Jam", tab: .jam, selectedTab: $selectedTab, namespace: tabAnimationNamespace)
+                            TabBarButton(title: "Settings", tab: .impostazioni, selectedTab: $selectedTab, namespace: tabAnimationNamespace)
+                        }
+                        .padding(6)
+                        .background(Color(UIColor.secondarySystemGroupedBackground))
+                        .clipShape(Capsule())
+                        
+                        // Bottone Circolare Ricerca
+                        Button(action: {
+                            withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
+                                selectedTab = .cerca
+                            }
+                        }) {
+                            Image(systemName: "magnifyingglass")
+                                .font(.system(size: 20, weight: .semibold))
+                                .foregroundColor(selectedTab == .cerca ? Color(hex: "a855f7") : .gray)
+                                .frame(width: 56, height: 56)
+                                .background(Color(UIColor.secondarySystemGroupedBackground))
+                                .clipShape(Circle())
+                        }
+                        .buttonStyle(ScaleButtonStyle())
+                    }
+                    .padding(.horizontal, 20)
+                    .padding(.bottom, 20)
                 }
-                .padding(.horizontal, 16)
-                .padding(.bottom, 16)
-            }
         }
         .sheet(isPresented: $showFullScreenPlayer) {
             FullScreenPlayerView()
@@ -95,7 +89,6 @@ struct RootView: View {
 // Bottone singolo della TabBar
 struct TabBarButton: View {
     let title: String
-    let icon: String
     let tab: AppTab
     @Binding var selectedTab: AppTab
     let namespace: Namespace.ID
@@ -110,25 +103,21 @@ struct TabBarButton: View {
                 selectedTab = tab
             }
         }) {
-            VStack(spacing: 4) {
-                Image(systemName: icon)
-                    .font(.system(size: 22, weight: .medium))
-                Text(title)
-                    .font(.system(size: 11, weight: .bold))
-            }
-            .foregroundColor(isSelected ? .pink : .primary.opacity(0.6))
-            .frame(width: 72, height: 56)
-            .background(
-                ZStack {
-                    if isSelected {
-                        Capsule()
-                            .fill(Color.pink.opacity(0.15))
-                            .matchedGeometryEffect(id: "TAB_BACKGROUND", in: namespace)
+            Text(title)
+                .font(.system(size: 14, weight: isSelected ? .semibold : .medium))
+                .foregroundColor(isSelected ? Color(hex: "a855f7") : .primary.opacity(0.7))
+                .frame(width: 80, height: 44)
+                .background(
+                    ZStack {
+                        if isSelected {
+                            Capsule()
+                                .fill(Color(hex: "a855f7").opacity(0.2))
+                                .matchedGeometryEffect(id: "TAB_BACKGROUND", in: namespace)
+                        }
                     }
-                }
-            )
+                )
         }
-        .buttonStyle(ScaleButtonStyle()) // Using our global ScaleButtonStyle
+        .buttonStyle(ScaleButtonStyle())
     }
 }
 

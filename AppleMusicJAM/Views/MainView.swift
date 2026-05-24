@@ -9,62 +9,63 @@ struct MainView: View {
     @State private var showHostsSheet = false
 
     var body: some View {
-        NavigationStack {
-            ScrollView(.vertical, showsIndicators: false) {
-                VStack(spacing: 24) {
-                    qrCodeCard
-                    hostsCard
+        ZStack {
+            Color(UIColor.systemGroupedBackground)
+                .ignoresSafeArea()
+            
+            VStack(spacing: 24) {
+                // Header custom come nello screenshot
+                HStack {
+                    Text("Jam")
+                        .font(.system(size: 34, weight: .bold))
+                        .foregroundColor(.primary)
+                    
+                    Spacer()
+                    
+                    Text(server.isConnected ? "Server is running" : "Server offline")
+                        .font(.system(size: 12, weight: .bold))
+                        .foregroundColor(server.isConnected ? Color(hex: "65a30d") : .red)
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 8)
+                        .background(
+                            Capsule()
+                                .fill(server.isConnected ? Color(hex: "ecfccb") : Color.red.opacity(0.15))
+                        )
                 }
-                .padding(.horizontal, 20)
-                .padding(.top, 16)
-                .padding(.bottom, 40)
-            }
-            .background(Color(UIColor.systemGroupedBackground))
-            .navigationTitle("Jam")
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    serverBadge
+                .padding(.horizontal, 4)
+                
+                ScrollView(.vertical, showsIndicators: false) {
+                    VStack(spacing: 24) {
+                        qrCodeCard
+                        hostsCard
+                    }
+                    .padding(.bottom, 150) // Spazio per il tab bar e now playing
                 }
             }
-            .onAppear(perform: onAppear)
-            .sheet(isPresented: $showHostsSheet) {
-                ConnectedHostsView()
-                    .presentationDetents([.medium, .large])
-                    .presentationDragIndicator(.visible)
-            }
+            .padding(.horizontal, 20)
+            .padding(.top, 16)
         }
-    }
-
-    // MARK: - Sections
-
-    /// Badge indicating if the local server is running
-    private var serverBadge: some View {
-        Text(server.isConnected ? "Server is running" : "Server offline")
-            .font(.system(size: 13, weight: .semibold))
-            .foregroundColor(server.isConnected ? Color.green : Color.red)
-            .padding(.horizontal, 12)
-            .padding(.vertical, 6)
-            .background(
-                Capsule()
-                    .fill(server.isConnected ? Color.green.opacity(0.15) : Color.red.opacity(0.15))
-            )
+        .onAppear(perform: onAppear)
+        .sheet(isPresented: $showHostsSheet) {
+            ConnectedHostsView()
+                .presentationDetents([.medium, .large])
+                .presentationDragIndicator(.visible)
+        }
     }
 
     /// Card with QR Code and URL
     private var qrCodeCard: some View {
         VStack(spacing: 16) {
-            QRCodeView(url: serverURL, size: 260)
+            QRCodeView(url: serverURL, size: 280)
                 .padding(.top, 24)
-                .padding(.horizontal, 24)
 
             VStack(spacing: 4) {
                 Text("Scan to Join")
-                    .font(.headline)
-                    .fontWeight(.semibold)
+                    .font(.system(size: 16, weight: .bold))
                     .foregroundColor(.primary)
 
                 Text(serverURL)
-                    .font(.subheadline)
+                    .font(.system(size: 12))
                     .foregroundColor(.secondary)
                     .multilineTextAlignment(.center)
             }
@@ -73,7 +74,7 @@ struct MainView: View {
         }
         .frame(maxWidth: .infinity)
         .background(Color(UIColor.secondarySystemGroupedBackground))
-        .cornerRadius(20)
+        .cornerRadius(24)
     }
 
     /// Card showing connected hosts count
@@ -84,27 +85,26 @@ struct MainView: View {
             HStack(spacing: 16) {
                 Image(systemName: "person.3.fill")
                     .font(.title2)
-                    .foregroundColor(.purple)
+                    .foregroundColor(Color(hex: "a855f7"))
 
                 Text("Connected hosts")
-                    .font(.subheadline)
-                    .fontWeight(.semibold)
+                    .font(.system(size: 14, weight: .bold))
                     .foregroundColor(.primary)
 
                 Spacer()
 
                 Text("\(server.connectedHosts.count)")
                     .font(.system(size: 16, weight: .bold))
-                    .foregroundColor(.purple)
-                    .frame(minWidth: 36, minHeight: 36)
-                    .padding(.horizontal, 8)
-                    .background(Color.purple.opacity(0.15))
-                    .clipShape(Capsule())
+                    .foregroundColor(Color(hex: "9333ea"))
+                    .frame(width: 44, height: 44)
+                    .background(Color(hex: "e9d5ff"))
+                    .clipShape(Circle())
             }
-            .padding(16)
+            .padding(.horizontal, 20)
+            .padding(.vertical, 12)
             .frame(maxWidth: .infinity)
             .background(Color(UIColor.secondarySystemGroupedBackground))
-            .cornerRadius(20)
+            .cornerRadius(24)
         }
         .buttonStyle(ScaleButtonStyle())
     }
