@@ -4,196 +4,60 @@ struct FullScreenPlayerView: View {
     @ObservedObject var player = MusicPlayerService.shared
     @Environment(\.dismiss) private var dismiss
     
-    // We can use the large artwork for the background blur
-    
     var body: some View {
-        ZStack {
-            // Background Blur based on artwork
+        VStack(spacing: 20) {
+            HStack {
+                Spacer()
+                Button("Chiudi") {
+                    dismiss()
+                }
+            }
+            
             if let song = player.currentSong {
                 AsyncImage(url: URL(string: song.artworkUrlLarge ?? "")) { phase in
                     if let image = phase.image {
-                        image
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .ignoresSafeArea()
-                            .blur(radius: 60)
-                            .overlay(Color.black.opacity(0.3)) // Darken for contrast
+                        image.resizable().scaledToFit()
                     } else {
-                        Color(hex: "1a1033").ignoresSafeArea()
+                        Color.gray
                     }
+                }
+                .frame(maxHeight: 300)
+                
+                VStack {
+                    Text(song.trackName)
+                    Text(song.artistName)
+                }
+                
+                HStack(spacing: 40) {
+                    Button(action: {
+                        player.skipPrevious()
+                    }) {
+                        Image(systemName: "backward.fill")
+                    }
+                    
+                    Button(action: {
+                        player.togglePlayPause()
+                    }) {
+                        Image(systemName: player.isPlaying ? "pause.fill" : "play.fill")
+                    }
+                    
+                    Button(action: {
+                        player.skipNext()
+                    }) {
+                        Image(systemName: "forward.fill")
+                    }
+                }
+                
+                Button("Coda") {
+                    // TODO: Azione Coda
                 }
             } else {
-                Color(hex: "1a1033").ignoresSafeArea()
+                Text("Nessun brano in riproduzione")
             }
             
-            VStack {
-                // Drag Handle
-                Capsule()
-                    .fill(Color.white.opacity(0.5))
-                    .frame(width: 40, height: 5)
-                    .padding(.top, 16)
-                    .padding(.bottom, 20)
-                
-                if let song = player.currentSong {
-                    // Copertina Gigante
-                    AsyncImage(url: URL(string: song.artworkUrlLarge ?? "")) { phase in
-                        if let image = phase.image {
-                            image
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .cornerRadius(12)
-                                .shadow(color: .black.opacity(0.4), radius: 20, x: 0, y: 10)
-                        } else {
-                            RoundedRectangle(cornerRadius: 12)
-                                .fill(Color.gray.opacity(0.3))
-                                .aspectRatio(1, contentMode: .fit)
-                        }
-                    }
-                    .padding(.horizontal, 30)
-                    .padding(.bottom, 40)
-                    
-                    // Info brano
-                    HStack {
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(song.trackName)
-                                .font(.title2)
-                                .fontWeight(.bold)
-                                .foregroundColor(.white)
-                                .lineLimit(1)
-                                .minimumScaleFactor(0.8)
-                            
-                            Text(song.artistName)
-                                .font(.title3)
-                                .foregroundColor(.white.opacity(0.7))
-                                .lineLimit(1)
-                        }
-                        Spacer()
-                    }
-                    .padding(.horizontal, 30)
-                    .padding(.bottom, 30)
-                    
-                    // Scrubber (Barra di avanzamento)
-                    VStack(spacing: 8) {
-                        GeometryReader { geometry in
-                            ZStack(alignment: .leading) {
-                                Capsule()
-                                    .fill(Color.white.opacity(0.3))
-                                    .frame(height: 6)
-                                
-                                Capsule()
-                                    .fill(Color.white)
-                                    .frame(width: progressWidth(totalWidth: geometry.size.width, song: song), height: 6)
-                            }
-                        }
-                        .frame(height: 6)
-                        
-                        HStack {
-                            Text(formatTime(player.elapsedTime))
-                            Spacer()
-                            Text("-\(formatTime(remainingTime(song: song)))")
-                        }
-                        .font(.caption)
-                        .foregroundColor(.white.opacity(0.6))
-                    }
-                    .padding(.horizontal, 30)
-                    .padding(.bottom, 40)
-                    
-                    // Controlli principali
-                    HStack(spacing: 50) {
-                        Button(action: {
-                            player.skipPrevious()
-                            let impact = UIImpactFeedbackGenerator(style: .medium)
-                            impact.impactOccurred()
-                        }) {
-                            Image(systemName: "backward.fill")
-                                .font(.system(size: 34))
-                                .foregroundColor(.white)
-                        }
-                        .buttonStyle(ScaleButtonStyle())
-                        
-                        Button(action: {
-                            player.togglePlayPause()
-                            let impact = UIImpactFeedbackGenerator(style: .light)
-                            impact.impactOccurred()
-                        }) {
-                            Image(systemName: player.isPlaying ? "pause.fill" : "play.fill")
-                                .font(.system(size: 46))
-                                .foregroundColor(.white)
-                                .frame(width: 50, height: 50) // Evita che salti durante il cambio icona
-                        }
-                        .buttonStyle(ScaleButtonStyle())
-                        
-                        Button(action: {
-                            player.skipNext()
-                            let impact = UIImpactFeedbackGenerator(style: .medium)
-                            impact.impactOccurred()
-                        }) {
-                            Image(systemName: "forward.fill")
-                                .font(.system(size: 34))
-                                .foregroundColor(.white)
-                        }
-                        .buttonStyle(ScaleButtonStyle())
-                    }
-                    .padding(.bottom, 40)
-                    
-                    Spacer()
-                    
-                    // Azioni in basso (Solo Coda)
-                    HStack {
-                        Spacer()
-                        Button(action: {
-                            // TODO: Mostra coda
-                            let impact = UIImpactFeedbackGenerator(style: .light)
-                            impact.impactOccurred()
-                        }) {
-                            Image(systemName: "list.bullet")
-                                .font(.system(size: 20))
-                                .foregroundColor(.white.opacity(0.8))
-                                .padding()
-                                .background(Color.white.opacity(0.1))
-                                .clipShape(Circle())
-                        }
-                        .buttonStyle(ScaleButtonStyle())
-                    }
-                    .padding(.horizontal, 30)
-                    .padding(.bottom, 30)
-                } else {
-                    Spacer()
-                    Text("Nessun brano in riproduzione")
-                        .foregroundColor(.white)
-                    Spacer()
-                }
-            }
+            Spacer()
         }
-    }
-    
-    private func progressWidth(totalWidth: CGFloat, song: Song) -> CGFloat {
-        guard let durationMillis = song.trackTimeMillis, durationMillis > 0 else { return 0 }
-        let duration = Double(durationMillis) / 1000.0
-        let percentage = player.elapsedTime / duration
-        return totalWidth * CGFloat(min(max(percentage, 0), 1))
-    }
-    
-    private func remainingTime(song: Song) -> Double {
-        guard let durationMillis = song.trackTimeMillis else { return 0 }
-        let duration = Double(durationMillis) / 1000.0
-        return max(duration - player.elapsedTime, 0)
-    }
-    
-    private func formatTime(_ time: Double) -> String {
-        guard !time.isNaN && !time.isInfinite else { return "0:00" }
-        let minutes = Int(time) / 60
-        let seconds = Int(time) % 60
-        return String(format: "%d:%02d", minutes, seconds)
-    }
-}
-
-struct ScaleButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .scaleEffect(configuration.isPressed ? 0.85 : 1.0)
-            .animation(.interpolatingSpring(stiffness: 300, damping: 20), value: configuration.isPressed)
-            .opacity(configuration.isPressed ? 0.8 : 1.0)
+        .padding()
     }
 }
 
