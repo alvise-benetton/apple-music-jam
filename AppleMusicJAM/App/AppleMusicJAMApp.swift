@@ -31,7 +31,7 @@ struct AppleMusicJAMApp: App {
 
     var body: some Scene {
         WindowGroup {
-            MainView()
+            RootView()
                 .preferredColorScheme(.dark)
         }
     }

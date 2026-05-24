@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		08A2E500332BCFCAA301B0F0 /* AppleMusicJAMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EA96CD8B63CB8A0F39C9D /* AppleMusicJAMApp.swift */; };
 		1DFFC2A851B90107ECDA1CA8 /* AppleMusicJAMWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB24A9FBC5EF33F4D61F2DF /* AppleMusicJAMWidgetBundle.swift */; };
+		1E675E28799E0E9A376DD767 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E57798B2534DB7AEB70B07 /* LibraryView.swift */; };
+		1F4381FE0B1C081C94AA75BC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7C38D0262D770E0E34D440 /* SettingsView.swift */; };
 		2864C4FB744DD084B4041CBC /* HostDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C818170D876970B2000C1A68 /* HostDevice.swift */; };
 		29F235A0D3BE6269F9332C0C /* ConnectedHostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2206A952CB65FAF9E2AC0AC /* ConnectedHostsView.swift */; };
 		2A07615766E6220EB658F0D5 /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19DA2B3E0CC15EB4EF133E3 /* CarPlaySceneDelegate.swift */; };
 		3895EDCBF5224FA5585DBC10 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ABC83F0C6A980AAD06A064 /* NetworkService.swift */; };
 		3D8599ED911354BE99312B7B /* MusicLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C01D6021AC2DFEEBCD0AC /* MusicLiveActivity.swift */; };
 		576D22FF97B77BD34475B880 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6880AE56DFF2C4C4854530 /* Song.swift */; };
+		61FFE9952297F64E1EA434B5 /* MiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD882900C42570A386F776 /* MiniPlayerView.swift */; };
+		63BD08E2CAE80C4269AF62F3 /* FullScreenPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F2F63DF2C3FB9328BC7E /* FullScreenPlayerView.swift */; };
 		834DF3416FBA9D57DE19182F /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = 1DB62BDABCD1F15AADBC129D /* CocoaMQTT */; };
 		8D3A380EAF22ABB611787208 /* LiveActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E17AF2F7F8B25BC48FB66 /* LiveActivityService.swift */; };
 		8F7978AEEE382CA6484C8E5B /* QRCodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4652F6D207555F1115E62 /* QRCodeService.swift */; };
@@ -22,11 +26,13 @@
 		A029F8F3C7949FE502416C95 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9A7B1F4ABDF5E6A87274F /* LocationService.swift */; };
 		A1815974D3F67DD500D24B50 /* ITunesSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A090E42ED1A16358B894DE /* ITunesSearchService.swift */; };
 		A4E9D3ED4AEB93330CEEEB75 /* MusicPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0184D16A231C1550B13542 /* MusicPlayerService.swift */; };
+		AD47E88CDEBE2AD1EB662A35 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1C62F1180F826F94A421A /* SearchView.swift */; };
 		B47B35ABC2C6E14C4DD57669 /* MusicActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7EB2EFC592BFA895A91B71 /* MusicActivityAttributes.swift */; };
 		B8CF60F2F81037FD1AEB1EF1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4443CF578653674C3714D7 /* MainView.swift */; };
 		C65F009A3EAA015B1340F8C5 /* AppleMusicJAMWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AD5B6942D7BBB91FFD8135CE /* AppleMusicJAMWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D24304187DB74161FC4BA761 /* MQTTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B13F7361CD52752B8D8D56 /* MQTTService.swift */; };
 		D5364802B2BB04C9C2BFC730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612183C9CE3BA1690416428D /* AppDelegate.swift */; };
+		D67D361974992E6CA814739D /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64262AD9874F57870EBB6304 /* RootView.swift */; };
 		DBE74677F946598A02F44A23 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC437E21AE22C779245F7C1 /* NowPlayingView.swift */; };
 		E0E1570577CE138D6FA35192 /* MusicActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7EB2EFC592BFA895A91B71 /* MusicActivityAttributes.swift */; };
 /* End PBXBuildFile section */
@@ -58,11 +64,16 @@
 /* Begin PBXFileReference section */
 		1E4443CF578653674C3714D7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		23B13F7361CD52752B8D8D56 /* MQTTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTService.swift; sourceTree = "<group>"; };
+		2E7C38D0262D770E0E34D440 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		2FC437E21AE22C779245F7C1 /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
 		31B4652F6D207555F1115E62 /* QRCodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeService.swift; sourceTree = "<group>"; };
+		3CB1C62F1180F826F94A421A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		3FBD882900C42570A386F776 /* MiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
 		513B1474A30A10B15AF75910 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
 		612183C9CE3BA1690416428D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61E57798B2534DB7AEB70B07 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		63AFDA59D910F9EA6FEBE149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		64262AD9874F57870EBB6304 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		6B08138A46800039876CDDB5 /* AppleMusicJAM.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AppleMusicJAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7EA96CD8B63CB8A0F39C9D /* AppleMusicJAMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicJAMApp.swift; sourceTree = "<group>"; };
 		80ABC83F0C6A980AAD06A064 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
@@ -80,6 +91,7 @@
 		CE2E17AF2F7F8B25BC48FB66 /* LiveActivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityService.swift; sourceTree = "<group>"; };
 		D52AB2B15551285C253B0EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FB6880AE56DFF2C4C4854530 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		FBA0F2F63DF2C3FB9328BC7E /* FullScreenPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenPlayerView.swift; sourceTree = "<group>"; };
 		FFB24A9FBC5EF33F4D61F2DF /* AppleMusicJAMWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicJAMWidgetBundle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,9 +111,15 @@
 			isa = PBXGroup;
 			children = (
 				A2206A952CB65FAF9E2AC0AC /* ConnectedHostsView.swift */,
+				FBA0F2F63DF2C3FB9328BC7E /* FullScreenPlayerView.swift */,
+				61E57798B2534DB7AEB70B07 /* LibraryView.swift */,
 				1E4443CF578653674C3714D7 /* MainView.swift */,
+				3FBD882900C42570A386F776 /* MiniPlayerView.swift */,
 				2FC437E21AE22C779245F7C1 /* NowPlayingView.swift */,
 				513B1474A30A10B15AF75910 /* QRCodeView.swift */,
+				64262AD9874F57870EBB6304 /* RootView.swift */,
+				3CB1C62F1180F826F94A421A /* SearchView.swift */,
+				2E7C38D0262D770E0E34D440 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -298,18 +316,24 @@
 				08A2E500332BCFCAA301B0F0 /* AppleMusicJAMApp.swift in Sources */,
 				2A07615766E6220EB658F0D5 /* CarPlaySceneDelegate.swift in Sources */,
 				29F235A0D3BE6269F9332C0C /* ConnectedHostsView.swift in Sources */,
+				63BD08E2CAE80C4269AF62F3 /* FullScreenPlayerView.swift in Sources */,
 				2864C4FB744DD084B4041CBC /* HostDevice.swift in Sources */,
 				A1815974D3F67DD500D24B50 /* ITunesSearchService.swift in Sources */,
+				1E675E28799E0E9A376DD767 /* LibraryView.swift in Sources */,
 				8D3A380EAF22ABB611787208 /* LiveActivityService.swift in Sources */,
 				A029F8F3C7949FE502416C95 /* LocationService.swift in Sources */,
 				D24304187DB74161FC4BA761 /* MQTTService.swift in Sources */,
 				B8CF60F2F81037FD1AEB1EF1 /* MainView.swift in Sources */,
+				61FFE9952297F64E1EA434B5 /* MiniPlayerView.swift in Sources */,
 				E0E1570577CE138D6FA35192 /* MusicActivityAttributes.swift in Sources */,
 				A4E9D3ED4AEB93330CEEEB75 /* MusicPlayerService.swift in Sources */,
 				3895EDCBF5224FA5585DBC10 /* NetworkService.swift in Sources */,
 				DBE74677F946598A02F44A23 /* NowPlayingView.swift in Sources */,
 				8F7978AEEE382CA6484C8E5B /* QRCodeService.swift in Sources */,
 				93A01D516150F8ACA4482F5F /* QRCodeView.swift in Sources */,
+				D67D361974992E6CA814739D /* RootView.swift in Sources */,
+				AD47E88CDEBE2AD1EB662A35 /* SearchView.swift in Sources */,
+				1F4381FE0B1C081C94AA75BC /* SettingsView.swift in Sources */,
 				576D22FF97B77BD34475B880 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

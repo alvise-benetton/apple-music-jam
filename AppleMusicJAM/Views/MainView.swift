@@ -49,10 +49,6 @@ struct MainView: View {
                     serverStatusSection
                     qrCodeSection
                     hostsSection
-                    if player.currentSong != nil {
-                        NowPlayingView()
-                            .transition(.move(edge: .bottom).combined(with: .opacity))
-                    }
                 }
                 .padding(.horizontal, 20)
                 .padding(.top, 12)
