@@ -29,43 +29,53 @@ struct SearchView: View {
                 } else {
                     List(searchResults) { song in
                         HStack {
-                            AsyncImage(url: URL(string: song.artworkUrl100 ?? "")) { phase in
-                                if let image = phase.image {
-                                    image
-                                        .resizable()
-                                        .aspectRatio(contentMode: .fill)
-                                        .frame(width: 50, height: 50)
-                                        .cornerRadius(6)
-                                } else {
-                                    Color.gray.opacity(0.3)
-                                        .frame(width: 50, height: 50)
-                                        .cornerRadius(6)
-                                }
-                            }
-                            
-                            VStack(alignment: .leading) {
-                                Text(song.trackName)
-                                    .font(.headline)
-                                    .lineLimit(1)
-                                Text(song.artistName)
-                                    .font(.subheadline)
-                                    .foregroundColor(.secondary)
-                                    .lineLimit(1)
-                            }
-                            
-                            Spacer()
-                            
                             Button(action: {
-                                // Aggiungi in coda
-                                MusicPlayerService.shared.addToQueue(song)
-                                // Invia notifica o feedback
+                                // Riproduci subito cliccando la riga
+                                MusicPlayerService.shared.playSong(song)
                                 let impact = UIImpactFeedbackGenerator(style: .medium)
                                 impact.impactOccurred()
                             }) {
-                                Image(systemName: "plus.circle.fill")
-                                    .foregroundColor(.accentColor)
-                                    .font(.title2)
+                                HStack {
+                                    AsyncImage(url: URL(string: song.artworkUrl100 ?? "")) { phase in
+                                        if let image = phase.image {
+                                            image
+                                                .resizable()
+                                                .aspectRatio(contentMode: .fill)
+                                                .frame(width: 50, height: 50)
+                                                .cornerRadius(6)
+                                        } else {
+                                            Color.gray.opacity(0.3)
+                                                .frame(width: 50, height: 50)
+                                                .cornerRadius(6)
+                                        }
+                                    }
+                                    
+                                    VStack(alignment: .leading) {
+                                        Text(song.trackName)
+                                            .font(.headline)
+                                            .foregroundColor(.primary)
+                                            .lineLimit(1)
+                                        Text(song.artistName)
+                                            .font(.subheadline)
+                                            .foregroundColor(.secondary)
+                                            .lineLimit(1)
+                                    }
+                                    
+                                    Spacer()
+                                }
                             }
+                            
+                            // Bottone per accodare
+                            Button(action: {
+                                MusicPlayerService.shared.addToQueue(song)
+                                let impact = UIImpactFeedbackGenerator(style: .light)
+                                impact.impactOccurred()
+                            }) {
+                                Image(systemName: "text.line.first.and.arrowtriangle.forward")
+                                    .foregroundColor(.accentColor)
+                                    .font(.title3)
+                            }
+                            .buttonStyle(BorderlessButtonStyle())
                         }
                     }
                     .listStyle(.plain)

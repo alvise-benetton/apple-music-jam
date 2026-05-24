@@ -64,6 +64,7 @@ struct MiniPlayerView: View {
                             .foregroundColor(.primary)
                             .frame(width: 44, height: 44)
                     }
+                    .buttonStyle(ScaleButtonStyle())
                     
                     Button(action: {
                         player.skipNext()
@@ -75,16 +76,33 @@ struct MiniPlayerView: View {
                             .foregroundColor(.primary)
                             .frame(width: 44, height: 44)
                     }
+                    .buttonStyle(ScaleButtonStyle())
                     .padding(.trailing, 8)
                 }
                 .frame(height: height - 2) // Minus the progress bar height
-                .background(
-                    Rectangle()
-                        .fill(.ultraThinMaterial)
-                )
             }
-            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-            .shadow(color: Color.black.opacity(0.15), radius: 10, x: 0, y: 4)
+            .background(
+                ZStack {
+                    // Liquid Glass Effect: Sfondo sfocato della copertina
+                    AsyncImage(url: URL(string: song.artworkUrl100 ?? "")) { phase in
+                        if let image = phase.image {
+                            image
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .blur(radius: 20)
+                                .opacity(0.6)
+                        } else {
+                            Color.clear
+                        }
+                    }
+                    
+                    // Materiale translucido principale
+                    Rectangle()
+                        .fill(.regularMaterial)
+                }
+            )
+            .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
+            .shadow(color: Color.black.opacity(0.2), radius: 15, x: 0, y: 8)
             .padding(.horizontal, 8)
         }
     }

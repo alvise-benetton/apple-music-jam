@@ -67,14 +67,7 @@ struct FullScreenPlayerView: View {
                                 .foregroundColor(.white.opacity(0.7))
                                 .lineLimit(1)
                         }
-                        
                         Spacer()
-                        
-                        Button(action: {}) {
-                            Image(systemName: "ellipsis.circle")
-                                .font(.title2)
-                                .foregroundColor(.white.opacity(0.8))
-                        }
                     }
                     .padding(.horizontal, 30)
                     .padding(.bottom, 30)
@@ -116,6 +109,7 @@ struct FullScreenPlayerView: View {
                                 .font(.system(size: 34))
                                 .foregroundColor(.white)
                         }
+                        .buttonStyle(ScaleButtonStyle())
                         
                         Button(action: {
                             player.togglePlayPause()
@@ -125,7 +119,9 @@ struct FullScreenPlayerView: View {
                             Image(systemName: player.isPlaying ? "pause.fill" : "play.fill")
                                 .font(.system(size: 46))
                                 .foregroundColor(.white)
+                                .frame(width: 50, height: 50) // Evita che salti durante il cambio icona
                         }
+                        .buttonStyle(ScaleButtonStyle())
                         
                         Button(action: {
                             player.skipNext()
@@ -136,44 +132,30 @@ struct FullScreenPlayerView: View {
                                 .font(.system(size: 34))
                                 .foregroundColor(.white)
                         }
+                        .buttonStyle(ScaleButtonStyle())
                     }
-                    .padding(.bottom, 50)
-                    
-                    // Barra del volume (estetica/slider di sistema)
-                    HStack(spacing: 15) {
-                        Image(systemName: "speaker.fill")
-                            .foregroundColor(.white.opacity(0.6))
-                            .font(.system(size: 12))
-                        
-                        Capsule()
-                            .fill(Color.white.opacity(0.3))
-                            .frame(height: 4)
-                            .overlay(
-                                Capsule()
-                                    .fill(Color.white)
-                                    .frame(width: 150), // Mocked for now, usually MPVolumeView is used
-                                alignment: .leading
-                            )
-                        
-                        Image(systemName: "speaker.wave.3.fill")
-                            .foregroundColor(.white.opacity(0.6))
-                            .font(.system(size: 14))
-                    }
-                    .padding(.horizontal, 30)
+                    .padding(.bottom, 40)
                     
                     Spacer()
                     
-                    // Azioni in basso
+                    // Azioni in basso (Solo Coda)
                     HStack {
-                        Image(systemName: "quote.bubble")
                         Spacer()
-                        Image(systemName: "airplayaudio")
-                        Spacer()
-                        Image(systemName: "list.bullet")
+                        Button(action: {
+                            // TODO: Mostra coda
+                            let impact = UIImpactFeedbackGenerator(style: .light)
+                            impact.impactOccurred()
+                        }) {
+                            Image(systemName: "list.bullet")
+                                .font(.system(size: 20))
+                                .foregroundColor(.white.opacity(0.8))
+                                .padding()
+                                .background(Color.white.opacity(0.1))
+                                .clipShape(Circle())
+                        }
+                        .buttonStyle(ScaleButtonStyle())
                     }
-                    .font(.system(size: 20))
-                    .foregroundColor(.white.opacity(0.6))
-                    .padding(.horizontal, 40)
+                    .padding(.horizontal, 30)
                     .padding(.bottom, 30)
                 } else {
                     Spacer()
@@ -203,6 +185,15 @@ struct FullScreenPlayerView: View {
         let minutes = Int(time) / 60
         let seconds = Int(time) % 60
         return String(format: "%d:%02d", minutes, seconds)
+    }
+}
+
+struct ScaleButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .scaleEffect(configuration.isPressed ? 0.85 : 1.0)
+            .animation(.interpolatingSpring(stiffness: 300, damping: 20), value: configuration.isPressed)
+            .opacity(configuration.isPressed ? 0.8 : 1.0)
     }
 }
 

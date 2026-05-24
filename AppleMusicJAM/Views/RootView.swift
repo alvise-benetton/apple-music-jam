@@ -51,7 +51,7 @@ struct RootView: View {
                     .zIndex(2) // Assicurati che sia sopra la tab bar
             }
         }
-        .fullScreenCover(isPresented: $showFullScreenPlayer) {
+        .sheet(isPresented: $showFullScreenPlayer) {
             FullScreenPlayerView()
         }
         .animation(.spring(), value: player.currentSong != nil)

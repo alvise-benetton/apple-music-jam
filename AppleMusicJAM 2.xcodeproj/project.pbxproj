@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A2E500332BCFCAA301B0F0 /* AppleMusicJAMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EA96CD8B63CB8A0F39C9D /* AppleMusicJAMApp.swift */; };
+		1DFFC2A851B90107ECDA1CA8 /* AppleMusicJAMWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB24A9FBC5EF33F4D61F2DF /* AppleMusicJAMWidgetBundle.swift */; };
+		2864C4FB744DD084B4041CBC /* HostDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C818170D876970B2000C1A68 /* HostDevice.swift */; };
+		29F235A0D3BE6269F9332C0C /* ConnectedHostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2206A952CB65FAF9E2AC0AC /* ConnectedHostsView.swift */; };
+		2A07615766E6220EB658F0D5 /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19DA2B3E0CC15EB4EF133E3 /* CarPlaySceneDelegate.swift */; };
+		3895EDCBF5224FA5585DBC10 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ABC83F0C6A980AAD06A064 /* NetworkService.swift */; };
+		3D8599ED911354BE99312B7B /* MusicLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C01D6021AC2DFEEBCD0AC /* MusicLiveActivity.swift */; };
+		576D22FF97B77BD34475B880 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6880AE56DFF2C4C4854530 /* Song.swift */; };
+		834DF3416FBA9D57DE19182F /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = 1DB62BDABCD1F15AADBC129D /* CocoaMQTT */; };
+		8D3A380EAF22ABB611787208 /* LiveActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E17AF2F7F8B25BC48FB66 /* LiveActivityService.swift */; };
+		8F7978AEEE382CA6484C8E5B /* QRCodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4652F6D207555F1115E62 /* QRCodeService.swift */; };
+		93A01D516150F8ACA4482F5F /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513B1474A30A10B15AF75910 /* QRCodeView.swift */; };
+		A029F8F3C7949FE502416C95 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9A7B1F4ABDF5E6A87274F /* LocationService.swift */; };
+		A1815974D3F67DD500D24B50 /* ITunesSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A090E42ED1A16358B894DE /* ITunesSearchService.swift */; };
+		A4E9D3ED4AEB93330CEEEB75 /* MusicPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0184D16A231C1550B13542 /* MusicPlayerService.swift */; };
+		B47B35ABC2C6E14C4DD57669 /* MusicActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7EB2EFC592BFA895A91B71 /* MusicActivityAttributes.swift */; };
+		B8CF60F2F81037FD1AEB1EF1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4443CF578653674C3714D7 /* MainView.swift */; };
+		C65F009A3EAA015B1340F8C5 /* AppleMusicJAMWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AD5B6942D7BBB91FFD8135CE /* AppleMusicJAMWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D24304187DB74161FC4BA761 /* MQTTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B13F7361CD52752B8D8D56 /* MQTTService.swift */; };
+		D5364802B2BB04C9C2BFC730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612183C9CE3BA1690416428D /* AppDelegate.swift */; };
+		DBE74677F946598A02F44A23 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC437E21AE22C779245F7C1 /* NowPlayingView.swift */; };
+		E0E1570577CE138D6FA35192 /* MusicActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7EB2EFC592BFA895A91B71 /* MusicActivityAttributes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D8B52C7B93D665766AD3AB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1314F97D6F36350BD76E237E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40DC69557E818C9CC6FDAF7D;
+			remoteInfo = AppleMusicJAMWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1689B5FF5B4ED6C593FC7B25 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C65F009A3EAA015B1340F8C5 /* AppleMusicJAMWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E4443CF578653674C3714D7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		23B13F7361CD52752B8D8D56 /* MQTTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTService.swift; sourceTree = "<group>"; };
+		2FC437E21AE22C779245F7C1 /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
+		31B4652F6D207555F1115E62 /* QRCodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeService.swift; sourceTree = "<group>"; };
+		513B1474A30A10B15AF75910 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		612183C9CE3BA1690416428D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63AFDA59D910F9EA6FEBE149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6B08138A46800039876CDDB5 /* AppleMusicJAM.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AppleMusicJAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E7EA96CD8B63CB8A0F39C9D /* AppleMusicJAMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicJAMApp.swift; sourceTree = "<group>"; };
+		80ABC83F0C6A980AAD06A064 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		83E438F13AB638AC5B6A9E9B /* AppleMusicJAMWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleMusicJAMWidget.entitlements; sourceTree = "<group>"; };
+		87A090E42ED1A16358B894DE /* ITunesSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchService.swift; sourceTree = "<group>"; };
+		8B0184D16A231C1550B13542 /* MusicPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerService.swift; sourceTree = "<group>"; };
+		8D2C01D6021AC2DFEEBCD0AC /* MusicLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLiveActivity.swift; sourceTree = "<group>"; };
+		A19DA2B3E0CC15EB4EF133E3 /* CarPlaySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
+		A2206A952CB65FAF9E2AC0AC /* ConnectedHostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedHostsView.swift; sourceTree = "<group>"; };
+		A9A9A7B1F4ABDF5E6A87274F /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		AB31186ECE8EBDF65599454B /* AppleMusicJAM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleMusicJAM.entitlements; sourceTree = "<group>"; };
+		AD5B6942D7BBB91FFD8135CE /* AppleMusicJAMWidgetExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = AppleMusicJAMWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7EB2EFC592BFA895A91B71 /* MusicActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicActivityAttributes.swift; sourceTree = "<group>"; };
+		C818170D876970B2000C1A68 /* HostDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostDevice.swift; sourceTree = "<group>"; };
+		CE2E17AF2F7F8B25BC48FB66 /* LiveActivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityService.swift; sourceTree = "<group>"; };
+		D52AB2B15551285C253B0EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FB6880AE56DFF2C4C4854530 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		FFB24A9FBC5EF33F4D61F2DF /* AppleMusicJAMWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicJAMWidgetBundle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B891FA2A0546F76C603F70F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834DF3416FBA9D57DE19182F /* CocoaMQTT in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224FF015CD9C8E77A3797457 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2206A952CB65FAF9E2AC0AC /* ConnectedHostsView.swift */,
+				1E4443CF578653674C3714D7 /* MainView.swift */,
+				2FC437E21AE22C779245F7C1 /* NowPlayingView.swift */,
+				513B1474A30A10B15AF75910 /* QRCodeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		267F9989E5F3020A1E80AD12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C818170D876970B2000C1A68 /* HostDevice.swift */,
+				FB6880AE56DFF2C4C4854530 /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D924C32F38D9B7A904A59C9 /* CarPlay */ = {
+			isa = PBXGroup;
+			children = (
+				A19DA2B3E0CC15EB4EF133E3 /* CarPlaySceneDelegate.swift */,
+			);
+			path = CarPlay;
+			sourceTree = "<group>";
+		};
+		59AB4B68D37C2C3089F02648 /* AppleMusicJAMWidget */ = {
+			isa = PBXGroup;
+			children = (
+				83E438F13AB638AC5B6A9E9B /* AppleMusicJAMWidget.entitlements */,
+				FFB24A9FBC5EF33F4D61F2DF /* AppleMusicJAMWidgetBundle.swift */,
+				D52AB2B15551285C253B0EDC /* Info.plist */,
+				8D2C01D6021AC2DFEEBCD0AC /* MusicLiveActivity.swift */,
+			);
+			path = AppleMusicJAMWidget;
+			sourceTree = "<group>";
+		};
+		6847ABC078B74AD902B1A2AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B08138A46800039876CDDB5 /* AppleMusicJAM.app */,
+				AD5B6942D7BBB91FFD8135CE /* AppleMusicJAMWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B02C53842A1C3E12653DDCF7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				612183C9CE3BA1690416428D /* AppDelegate.swift */,
+				6E7EA96CD8B63CB8A0F39C9D /* AppleMusicJAMApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C7B0B77DFAF3EF8CACCE4543 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BF7EB2EFC592BFA895A91B71 /* MusicActivityAttributes.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DE1E1343D423486FB8B234C4 /* AppleMusicJAM */ = {
+			isa = PBXGroup;
+			children = (
+				B02C53842A1C3E12653DDCF7 /* App */,
+				3D924C32F38D9B7A904A59C9 /* CarPlay */,
+				267F9989E5F3020A1E80AD12 /* Models */,
+				EED3074C83BA39268363CA31 /* Services */,
+				224FF015CD9C8E77A3797457 /* Views */,
+				AB31186ECE8EBDF65599454B /* AppleMusicJAM.entitlements */,
+				63AFDA59D910F9EA6FEBE149 /* Info.plist */,
+			);
+			path = AppleMusicJAM;
+			sourceTree = "<group>";
+		};
+		EE95E38B5A8BF4BF636950A1 = {
+			isa = PBXGroup;
+			children = (
+				DE1E1343D423486FB8B234C4 /* AppleMusicJAM */,
+				59AB4B68D37C2C3089F02648 /* AppleMusicJAMWidget */,
+				C7B0B77DFAF3EF8CACCE4543 /* Shared */,
+				6847ABC078B74AD902B1A2AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EED3074C83BA39268363CA31 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				87A090E42ED1A16358B894DE /* ITunesSearchService.swift */,
+				CE2E17AF2F7F8B25BC48FB66 /* LiveActivityService.swift */,
+				A9A9A7B1F4ABDF5E6A87274F /* LocationService.swift */,
+				23B13F7361CD52752B8D8D56 /* MQTTService.swift */,
+				8B0184D16A231C1550B13542 /* MusicPlayerService.swift */,
+				80ABC83F0C6A980AAD06A064 /* NetworkService.swift */,
+				31B4652F6D207555F1115E62 /* QRCodeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3525F4F1832BC1938F731C56 /* AppleMusicJAM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A856457BA9CF53B4AD71844 /* Build configuration list for PBXNativeTarget "AppleMusicJAM" */;
+			buildPhases = (
+				9C4E5ABFF9DB8C4475C6F3F8 /* Sources */,
+				6B891FA2A0546F76C603F70F /* Frameworks */,
+				1689B5FF5B4ED6C593FC7B25 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6BD9A4E50B50A8F52DCEB73 /* PBXTargetDependency */,
+			);
+			name = AppleMusicJAM;
+			packageProductDependencies = (
+				1DB62BDABCD1F15AADBC129D /* CocoaMQTT */,
+			);
+			productName = AppleMusicJAM;
+			productReference = 6B08138A46800039876CDDB5 /* AppleMusicJAM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40DC69557E818C9CC6FDAF7D /* AppleMusicJAMWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B068879FA768274A896F076 /* Build configuration list for PBXNativeTarget "AppleMusicJAMWidgetExtension" */;
+			buildPhases = (
+				50C279F65A5CB4BD05540E55 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleMusicJAMWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = AppleMusicJAMWidgetExtension;
+			productReference = AD5B6942D7BBB91FFD8135CE /* AppleMusicJAMWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1314F97D6F36350BD76E237E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3525F4F1832BC1938F731C56 = {
+						DevelopmentTeam = NYD2RHPW5V;
+					};
+					40DC69557E818C9CC6FDAF7D = {
+						DevelopmentTeam = NYD2RHPW5V;
+					};
+				};
+			};
+			buildConfigurationList = 01D727A0E44E70B38508C67B /* Build configuration list for PBXProject "AppleMusicJAM" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EE95E38B5A8BF4BF636950A1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5068B4A7145ED076737DF0A2 /* XCRemoteSwiftPackageReference "CocoaMQTT" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6847ABC078B74AD902B1A2AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3525F4F1832BC1938F731C56 /* AppleMusicJAM */,
+				40DC69557E818C9CC6FDAF7D /* AppleMusicJAMWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50C279F65A5CB4BD05540E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFFC2A851B90107ECDA1CA8 /* AppleMusicJAMWidgetBundle.swift in Sources */,
+				B47B35ABC2C6E14C4DD57669 /* MusicActivityAttributes.swift in Sources */,
+				3D8599ED911354BE99312B7B /* MusicLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4E5ABFF9DB8C4475C6F3F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5364802B2BB04C9C2BFC730 /* AppDelegate.swift in Sources */,
+				08A2E500332BCFCAA301B0F0 /* AppleMusicJAMApp.swift in Sources */,
+				2A07615766E6220EB658F0D5 /* CarPlaySceneDelegate.swift in Sources */,
+				29F235A0D3BE6269F9332C0C /* ConnectedHostsView.swift in Sources */,
+				2864C4FB744DD084B4041CBC /* HostDevice.swift in Sources */,
+				A1815974D3F67DD500D24B50 /* ITunesSearchService.swift in Sources */,
+				8D3A380EAF22ABB611787208 /* LiveActivityService.swift in Sources */,
+				A029F8F3C7949FE502416C95 /* LocationService.swift in Sources */,
+				D24304187DB74161FC4BA761 /* MQTTService.swift in Sources */,
+				B8CF60F2F81037FD1AEB1EF1 /* MainView.swift in Sources */,
+				E0E1570577CE138D6FA35192 /* MusicActivityAttributes.swift in Sources */,
+				A4E9D3ED4AEB93330CEEEB75 /* MusicPlayerService.swift in Sources */,
+				3895EDCBF5224FA5585DBC10 /* NetworkService.swift in Sources */,
+				DBE74677F946598A02F44A23 /* NowPlayingView.swift in Sources */,
+				8F7978AEEE382CA6484C8E5B /* QRCodeService.swift in Sources */,
+				93A01D516150F8ACA4482F5F /* QRCodeView.swift in Sources */,
+				576D22FF97B77BD34475B880 /* Song.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6BD9A4E50B50A8F52DCEB73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40DC69557E818C9CC6FDAF7D /* AppleMusicJAMWidgetExtension */;
+			targetProxy = 8D8B52C7B93D665766AD3AB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A7B56A0473F3F0773E2AA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AppleMusicJAMWidget/AppleMusicJAMWidget.entitlements;
+				DEVELOPMENT_TEAM = NYD2RHPW5V;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AppleMusicJAMWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applemusicjam.app.widget;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DB32641CE10603D0F8F27D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AppleMusicJAMWidget/AppleMusicJAMWidget.entitlements;
+				DEVELOPMENT_TEAM = NYD2RHPW5V;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AppleMusicJAMWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applemusicjam.app.widget;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEA52EBE391DAE18276A3105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleMusicJAM/AppleMusicJAM.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = NYD2RHPW5V;
+				INFOPLIST_FILE = AppleMusicJAM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applemusicjam.app;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3FD19CA4D28318160385E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E411107C543F86699C19A5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F03ECAA18DF216FCA6267A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleMusicJAM/AppleMusicJAM.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = NYD2RHPW5V;
+				INFOPLIST_FILE = AppleMusicJAM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applemusicjam.app;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01D727A0E44E70B38508C67B /* Build configuration list for PBXProject "AppleMusicJAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FD19CA4D28318160385E3C /* Debug */,
+				E411107C543F86699C19A5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4B068879FA768274A896F076 /* Build configuration list for PBXNativeTarget "AppleMusicJAMWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7B56A0473F3F0773E2AA5F /* Debug */,
+				9DB32641CE10603D0F8F27D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6A856457BA9CF53B4AD71844 /* Build configuration list for PBXNativeTarget "AppleMusicJAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03ECAA18DF216FCA6267A45 /* Debug */,
+				BEA52EBE391DAE18276A3105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5068B4A7145ED076737DF0A2 /* XCRemoteSwiftPackageReference "CocoaMQTT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emqx/CocoaMQTT.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1DB62BDABCD1F15AADBC129D /* CocoaMQTT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5068B4A7145ED076737DF0A2 /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
+			productName = CocoaMQTT;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1314F97D6F36350BD76E237E /* Project object */;
+}
