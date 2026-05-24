@@ -46,8 +46,8 @@ final class MusicPlayerService: ObservableObject {
 
     // MARK: - Private Properties
 
-    /// The system music player instance.
-    private let player = MPMusicPlayerController.systemMusicPlayer
+    /// The application music player instance (plays locally inside the app).
+    private let player = MPMusicPlayerController.applicationQueuePlayer
     /// Timer that polls playback state every 0.5 seconds.
     private var pollingTimer: Timer?
     /// Set for storing Combine subscriptions.
@@ -285,6 +285,15 @@ final class MusicPlayerService: ObservableObject {
         }
 
         MPNowPlayingInfoCenter.default().nowPlayingInfo = info
+        
+        // Aggiorna anche la Live Activity
+        Task {
+            await LiveActivityService.shared.updateActivity(
+                song: song,
+                isPlaying: isPlaying,
+                hosts: MQTTService.shared.connectedHosts.count
+            )
+        }
     }
 
     // MARK: - Private Methods

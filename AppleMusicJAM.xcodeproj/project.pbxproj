@@ -14,7 +14,6 @@
 		2A07615766E6220EB658F0D5 /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19DA2B3E0CC15EB4EF133E3 /* CarPlaySceneDelegate.swift */; };
 		3895EDCBF5224FA5585DBC10 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ABC83F0C6A980AAD06A064 /* NetworkService.swift */; };
 		3D8599ED911354BE99312B7B /* MusicLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C01D6021AC2DFEEBCD0AC /* MusicLiveActivity.swift */; };
-		48B04DD7E2225118320062FD /* SilentAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7BDBDB1AFC2F23F98ADCA8 /* SilentAudioService.swift */; };
 		576D22FF97B77BD34475B880 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6880AE56DFF2C4C4854530 /* Song.swift */; };
 		834DF3416FBA9D57DE19182F /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = 1DB62BDABCD1F15AADBC129D /* CocoaMQTT */; };
 		8D3A380EAF22ABB611787208 /* LiveActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E17AF2F7F8B25BC48FB66 /* LiveActivityService.swift */; };
@@ -78,7 +77,6 @@
 		C818170D876970B2000C1A68 /* HostDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostDevice.swift; sourceTree = "<group>"; };
 		CE2E17AF2F7F8B25BC48FB66 /* LiveActivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityService.swift; sourceTree = "<group>"; };
 		D52AB2B15551285C253B0EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		ED7BDBDB1AFC2F23F98ADCA8 /* SilentAudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilentAudioService.swift; sourceTree = "<group>"; };
 		FB6880AE56DFF2C4C4854530 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		FFB24A9FBC5EF33F4D61F2DF /* AppleMusicJAMWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicJAMWidgetBundle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +191,6 @@
 				8B0184D16A231C1550B13542 /* MusicPlayerService.swift */,
 				80ABC83F0C6A980AAD06A064 /* NetworkService.swift */,
 				31B4652F6D207555F1115E62 /* QRCodeService.swift */,
-				ED7BDBDB1AFC2F23F98ADCA8 /* SilentAudioService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -309,7 +306,6 @@
 				DBE74677F946598A02F44A23 /* NowPlayingView.swift in Sources */,
 				8F7978AEEE382CA6484C8E5B /* QRCodeService.swift in Sources */,
 				93A01D516150F8ACA4482F5F /* QRCodeView.swift in Sources */,
-				48B04DD7E2225118320062FD /* SilentAudioService.swift in Sources */,
 				576D22FF97B77BD34475B880 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

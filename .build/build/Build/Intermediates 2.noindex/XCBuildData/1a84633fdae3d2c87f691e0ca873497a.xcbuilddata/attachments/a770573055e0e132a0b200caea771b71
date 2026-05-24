@@ -1,0 +1,4 @@
+module MqttCocoaAsyncSocket {
+umbrella "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/SourcePackages/checkouts/MqttCocoaAsyncSocket/Source/GCD"
+export *
+}
