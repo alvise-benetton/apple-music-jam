@@ -19,7 +19,7 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
     ) -> Bool {
-        configureAudioSession()
+        LocationService.shared.startTracking()
         startMQTTService()
         return true
     }
@@ -59,16 +59,7 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
 
     // MARK: - Private Methods
 
-    /// Configures `AVAudioSession` for background playback.
-    private func configureAudioSession() {
-        do {
-            let session = AVAudioSession.sharedInstance()
-            try session.setCategory(.playback, mode: .default, options: [])
-            try session.setActive(true)
-        } catch {
-            print("[AppDelegate] Failed to configure AVAudioSession: \(error.localizedDescription)")
-        }
-    }
+
 
     /// Starts the MQTT service so that host devices can connect.
     private func startMQTTService() {

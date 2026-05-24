@@ -46,8 +46,8 @@ final class MusicPlayerService: ObservableObject {
 
     // MARK: - Private Properties
 
-    /// The application music player instance (plays locally inside the app).
-    private let player = MPMusicPlayerController.applicationQueuePlayer
+    /// The system music player instance.
+    private let player = MPMusicPlayerController.systemMusicPlayer
     /// Timer that polls playback state every 0.5 seconds.
     private var pollingTimer: Timer?
     /// Set for storing Combine subscriptions.

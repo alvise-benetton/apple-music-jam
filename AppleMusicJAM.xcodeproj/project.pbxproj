@@ -19,6 +19,7 @@
 		8D3A380EAF22ABB611787208 /* LiveActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E17AF2F7F8B25BC48FB66 /* LiveActivityService.swift */; };
 		8F7978AEEE382CA6484C8E5B /* QRCodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4652F6D207555F1115E62 /* QRCodeService.swift */; };
 		93A01D516150F8ACA4482F5F /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513B1474A30A10B15AF75910 /* QRCodeView.swift */; };
+		A029F8F3C7949FE502416C95 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9A7B1F4ABDF5E6A87274F /* LocationService.swift */; };
 		A1815974D3F67DD500D24B50 /* ITunesSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A090E42ED1A16358B894DE /* ITunesSearchService.swift */; };
 		A4E9D3ED4AEB93330CEEEB75 /* MusicPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0184D16A231C1550B13542 /* MusicPlayerService.swift */; };
 		B47B35ABC2C6E14C4DD57669 /* MusicActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7EB2EFC592BFA895A91B71 /* MusicActivityAttributes.swift */; };
@@ -71,6 +72,7 @@
 		8D2C01D6021AC2DFEEBCD0AC /* MusicLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLiveActivity.swift; sourceTree = "<group>"; };
 		A19DA2B3E0CC15EB4EF133E3 /* CarPlaySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
 		A2206A952CB65FAF9E2AC0AC /* ConnectedHostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedHostsView.swift; sourceTree = "<group>"; };
+		A9A9A7B1F4ABDF5E6A87274F /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		AB31186ECE8EBDF65599454B /* AppleMusicJAM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleMusicJAM.entitlements; sourceTree = "<group>"; };
 		AD5B6942D7BBB91FFD8135CE /* AppleMusicJAMWidgetExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = AppleMusicJAMWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7EB2EFC592BFA895A91B71 /* MusicActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicActivityAttributes.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 			children = (
 				87A090E42ED1A16358B894DE /* ITunesSearchService.swift */,
 				CE2E17AF2F7F8B25BC48FB66 /* LiveActivityService.swift */,
+				A9A9A7B1F4ABDF5E6A87274F /* LocationService.swift */,
 				23B13F7361CD52752B8D8D56 /* MQTTService.swift */,
 				8B0184D16A231C1550B13542 /* MusicPlayerService.swift */,
 				80ABC83F0C6A980AAD06A064 /* NetworkService.swift */,
@@ -298,6 +301,7 @@
 				2864C4FB744DD084B4041CBC /* HostDevice.swift in Sources */,
 				A1815974D3F67DD500D24B50 /* ITunesSearchService.swift in Sources */,
 				8D3A380EAF22ABB611787208 /* LiveActivityService.swift in Sources */,
+				A029F8F3C7949FE502416C95 /* LocationService.swift in Sources */,
 				D24304187DB74161FC4BA761 /* MQTTService.swift in Sources */,
 				B8CF60F2F81037FD1AEB1EF1 /* MainView.swift in Sources */,
 				E0E1570577CE138D6FA35192 /* MusicActivityAttributes.swift in Sources */,

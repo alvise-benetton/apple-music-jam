@@ -24,6 +24,10 @@
 	<true/>
 	<key>NSAppleMusicUsageDescription</key>
 	<string>Apple Music JAM needs access to Apple Music to play songs requested by connected guests.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to create a Roadtrip Map of the songs you listened to during your journey.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We track your location in the background to build a continuous Roadtrip Map of your playlist, and to keep the app connected to the remote JAM session.</string>
 	<key>NSLocalNetworkUsageDescription</key>
 	<string>Apple Music JAM uses the local network to let guests connect and control music playback.</string>
 	<key>NSBonjourServices</key>
@@ -36,6 +40,7 @@
 	<array>
 		<string>audio</string>
 		<string>fetch</string>
+		<string>location</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string></string>
