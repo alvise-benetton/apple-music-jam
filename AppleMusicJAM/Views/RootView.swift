@@ -48,17 +48,17 @@ struct RootView: View {
                 
                 // Custom Tab Bar
                 HStack(spacing: 12) {
+                    Spacer(minLength: 0)
                     // Pill principale con i tab primari
                     HStack(spacing: 0) {
                         TabBarButton(title: "Home", icon: "house.fill", tab: .libreria, selectedTab: $selectedTab, namespace: tabAnimationNamespace)
                         TabBarButton(title: "JAM", icon: "music.mic", tab: .jam, selectedTab: $selectedTab, namespace: tabAnimationNamespace)
                         TabBarButton(title: "Opzioni", icon: "gearshape.fill", tab: .impostazioni, selectedTab: $selectedTab, namespace: tabAnimationNamespace)
                     }
-                    .padding(.horizontal, 6)
-                    .padding(.vertical, 6)
+                    .padding(6)
                     .background(.ultraThinMaterial)
                     .clipShape(Capsule())
-                    .shadow(color: Color.black.opacity(0.1), radius: 10, x: 0, y: 5)
+                    .shadow(color: Color.black.opacity(0.15), radius: 15, x: 0, y: 5)
                     
                     // Bottone Circolare Ricerca
                     Button(action: {
@@ -67,17 +67,19 @@ struct RootView: View {
                         }
                     }) {
                         Image(systemName: "magnifyingglass")
-                            .font(.system(size: 24, weight: .medium))
-                            .foregroundColor(selectedTab == .cerca ? .pink : .primary)
-                            .frame(width: 60, height: 60)
+                            .font(.system(size: 22, weight: .semibold))
+                            .foregroundColor(selectedTab == .cerca ? .pink : .primary.opacity(0.8))
+                            .frame(width: 68, height: 68)
                             .background(.ultraThinMaterial)
                             .clipShape(Circle())
-                            .shadow(color: Color.black.opacity(0.1), radius: 10, x: 0, y: 5)
+                            .shadow(color: Color.black.opacity(0.15), radius: 15, x: 0, y: 5)
                     }
                     .buttonStyle(ScaleButtonStyle())
+                    
+                    Spacer(minLength: 0)
                 }
                 .padding(.horizontal, 16)
-                .padding(.bottom, 8)
+                .padding(.bottom, 16)
             }
         }
         .sheet(isPresented: $showFullScreenPlayer) {
@@ -110,13 +112,12 @@ struct TabBarButton: View {
         }) {
             VStack(spacing: 4) {
                 Image(systemName: icon)
-                    .font(.system(size: 24))
+                    .font(.system(size: 22, weight: .medium))
                 Text(title)
-                    .font(.system(size: 10, weight: .medium))
+                    .font(.system(size: 11, weight: .bold))
             }
-            .foregroundColor(isSelected ? .pink : .primary.opacity(0.8))
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, 8)
+            .foregroundColor(isSelected ? .pink : .primary.opacity(0.6))
+            .frame(width: 72, height: 56)
             .background(
                 ZStack {
                     if isSelected {

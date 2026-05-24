@@ -4,24 +4,11 @@ struct MiniPlayerView: View {
     @ObservedObject var player = MusicPlayerService.shared
     
     // GeometryReader size from parent
-    var height: CGFloat = 64
+    var height: CGFloat = 68
     
     var body: some View {
         if let song = player.currentSong {
             VStack(spacing: 0) {
-                // Sottile linea di progress
-                GeometryReader { geometry in
-                    ZStack(alignment: .leading) {
-                        Rectangle()
-                            .fill(Color.gray.opacity(0.3))
-                        
-                        Rectangle()
-                            .fill(Color.primary)
-                            .frame(width: progressWidth(totalWidth: geometry.size.width, song: song))
-                    }
-                }
-                .frame(height: 2)
-                
                 HStack(spacing: 12) {
                     // Artwork
                     AsyncImage(url: URL(string: song.artworkUrl100 ?? "")) { phase in
@@ -79,18 +66,18 @@ struct MiniPlayerView: View {
                     .buttonStyle(ScaleButtonStyle())
                     .padding(.trailing, 8)
                 }
-                .frame(height: height - 2) // Minus the progress bar height
+                .frame(height: height)
             }
             .background(
-                ZStack {
-                    // Liquid Glass Effect: Sfondo sfocato della copertina
+                ZStack(alignment: .bottom) {
+                    // Sfondo sfocato della copertina
                     AsyncImage(url: URL(string: song.artworkUrl100 ?? "")) { phase in
                         if let image = phase.image {
                             image
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
-                                .blur(radius: 20)
-                                .opacity(0.6)
+                                .blur(radius: 30)
+                                .opacity(0.7)
                         } else {
                             Color.clear
                         }
@@ -99,11 +86,24 @@ struct MiniPlayerView: View {
                     // Materiale translucido principale
                     Rectangle()
                         .fill(.regularMaterial)
+                    
+                    // Sottile linea di progress in basso, sovrapposta
+                    GeometryReader { geometry in
+                        ZStack(alignment: .leading) {
+                            Rectangle()
+                                .fill(Color.clear) // Invisibile base
+                            
+                            Rectangle()
+                                .fill(Color.primary.opacity(0.8))
+                                .frame(width: progressWidth(totalWidth: geometry.size.width, song: song))
+                        }
+                    }
+                    .frame(height: 2)
                 }
             )
-            .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
+            .clipShape(Capsule())
             .shadow(color: Color.black.opacity(0.2), radius: 15, x: 0, y: 8)
-            .padding(.horizontal, 8)
+            .padding(.horizontal, 16)
         }
     }
     
