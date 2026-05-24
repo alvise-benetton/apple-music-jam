@@ -1,0 +1,73 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "a6b26405c857e4db57aaa26e5b3f3b9671a999c75c29660b1d20cca31a2c1d1d"
+    },
+    {
+      "guid" : "a6b26405c857e4db57aaa26e5b3f3b962b0fdf84a61360d6157b3d9057d357df"
+    }
+  ],
+  "containerPath" : "/Users/alvisebenetton/Desktop/Apple Music JAM/AppleMusicJAM.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "hostTargetedPlatform" : null,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator26.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Products",
+      "derivedDataPath" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build",
+      "indexDataStoreFolderPath" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/alvisebenetton/Desktop/Apple Music JAM/.build/build/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone18,3",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "26.5",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone18,3",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "86EE0E25-37CB-465E-B769-96B542A748B1",
+          "TARGET_DEVICE_MODEL" : "iPhone18,3",
+          "TARGET_DEVICE_OS_VERSION" : "26.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -5,6 +5,91 @@
 	<key>logFormatVersion</key>
 	<integer>12</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>61B5B697-46A4-4361-A3F1-B534341BC7C4</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>61B5B697-46A4-4361-A3F1-B534341BC7C4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppleMusicJAM project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppleMusicJAM</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project AppleMusicJAM with scheme AppleMusicJAM</string>
+			<key>timeStartedRecording</key>
+			<real>801300136.80512404</real>
+			<key>timeStoppedRecording</key>
+			<real>801300153.08149195</real>
+			<key>title</key>
+			<string>Building project AppleMusicJAM with scheme AppleMusicJAM</string>
+			<key>uniqueIdentifier</key>
+			<string>61B5B697-46A4-4361-A3F1-B534341BC7C4</string>
+		</dict>
+		<key>849FC8C6-5D6F-4F8E-99B0-A912C0C999D7</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>849FC8C6-5D6F-4F8E-99B0-A912C0C999D7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppleMusicJAM project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppleMusicJAM</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project AppleMusicJAM with scheme AppleMusicJAM</string>
+			<key>timeStartedRecording</key>
+			<real>801300165.65755796</real>
+			<key>timeStoppedRecording</key>
+			<real>801300167.21590805</real>
+			<key>title</key>
+			<string>Building project AppleMusicJAM with scheme AppleMusicJAM</string>
+			<key>uniqueIdentifier</key>
+			<string>849FC8C6-5D6F-4F8E-99B0-A912C0C999D7</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
