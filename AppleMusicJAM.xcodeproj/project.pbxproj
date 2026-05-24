@@ -74,7 +74,7 @@
 		61E57798B2534DB7AEB70B07 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		63AFDA59D910F9EA6FEBE149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		64262AD9874F57870EBB6304 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		6B08138A46800039876CDDB5 /* AppleMusicJAM.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AppleMusicJAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B08138A46800039876CDDB5 /* AppleMusicJAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusicJAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7EA96CD8B63CB8A0F39C9D /* AppleMusicJAMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicJAMApp.swift; sourceTree = "<group>"; };
 		80ABC83F0C6A980AAD06A064 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		83E438F13AB638AC5B6A9E9B /* AppleMusicJAMWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleMusicJAMWidget.entitlements; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		A2206A952CB65FAF9E2AC0AC /* ConnectedHostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedHostsView.swift; sourceTree = "<group>"; };
 		A9A9A7B1F4ABDF5E6A87274F /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		AB31186ECE8EBDF65599454B /* AppleMusicJAM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleMusicJAM.entitlements; sourceTree = "<group>"; };
-		AD5B6942D7BBB91FFD8135CE /* AppleMusicJAMWidgetExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = AppleMusicJAMWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5B6942D7BBB91FFD8135CE /* AppleMusicJAMWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AppleMusicJAMWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7EB2EFC592BFA895A91B71 /* MusicActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicActivityAttributes.swift; sourceTree = "<group>"; };
 		C818170D876970B2000C1A68 /* HostDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostDevice.swift; sourceTree = "<group>"; };
 		CE2E17AF2F7F8B25BC48FB66 /* LiveActivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityService.swift; sourceTree = "<group>"; };
@@ -265,14 +265,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1600;
-				TargetAttributes = {
-					3525F4F1832BC1938F731C56 = {
-						DevelopmentTeam = NYD2RHPW5V;
-					};
-					40DC69557E818C9CC6FDAF7D = {
-						DevelopmentTeam = NYD2RHPW5V;
-					};
-				};
 			};
 			buildConfigurationList = 01D727A0E44E70B38508C67B /* Build configuration list for PBXProject "AppleMusicJAM" */;
 			developmentRegion = en;
@@ -353,7 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = AppleMusicJAMWidget/AppleMusicJAMWidget.entitlements;
-				DEVELOPMENT_TEAM = NYD2RHPW5V;
+				DEVELOPMENT_TEAM = 5P74P388QG;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = AppleMusicJAMWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -372,7 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = AppleMusicJAMWidget/AppleMusicJAMWidget.entitlements;
-				DEVELOPMENT_TEAM = NYD2RHPW5V;
+				DEVELOPMENT_TEAM = 5P74P388QG;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = AppleMusicJAMWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -393,7 +385,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AppleMusicJAM/AppleMusicJAM.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = NYD2RHPW5V;
+				DEVELOPMENT_TEAM = 5P74P388QG;
 				INFOPLIST_FILE = AppleMusicJAM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -533,7 +525,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AppleMusicJAM/AppleMusicJAM.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = NYD2RHPW5V;
+				DEVELOPMENT_TEAM = 5P74P388QG;
 				INFOPLIST_FILE = AppleMusicJAM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

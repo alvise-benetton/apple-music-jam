@@ -10,7 +10,7 @@ struct FullScreenPlayerView: View {
         ZStack {
             // Background Blur based on artwork
             if let song = player.currentSong {
-                AsyncImage(url: URL(string: song.artworkUrlLarge)) { phase in
+                AsyncImage(url: URL(string: song.artworkUrlLarge ?? "")) { phase in
                     if let image = phase.image {
                         image
                             .resizable()
@@ -36,7 +36,7 @@ struct FullScreenPlayerView: View {
                 
                 if let song = player.currentSong {
                     // Copertina Gigante
-                    AsyncImage(url: URL(string: song.artworkUrlLarge)) { phase in
+                    AsyncImage(url: URL(string: song.artworkUrlLarge ?? "")) { phase in
                         if let image = phase.image {
                             image
                                 .resizable()
